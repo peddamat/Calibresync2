@@ -1,0 +1,6 @@
+framework module Pods_CalibreSync2_CalibreSync2UITests {
+  umbrella header "Pods-CalibreSync2-CalibreSync2UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
