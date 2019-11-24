@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C869686238B355800CC3352 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C869685238B355800CC3352 /* AppDelegate.swift */; };
+		8C869688238B355800CC3352 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C869687238B355800CC3352 /* SceneDelegate.swift */; };
+		8C86968A238B355800CC3352 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C869689238B355800CC3352 /* ContentView.swift */; };
+		8C86968C238B355F00CC3352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C86968B238B355F00CC3352 /* Assets.xcassets */; };
+		8C86968F238B355F00CC3352 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C86968E238B355F00CC3352 /* Preview Assets.xcassets */; };
+		8C869692238B355F00CC3352 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C869690238B355F00CC3352 /* LaunchScreen.storyboard */; };
+		8C86969D238B355F00CC3352 /* CalibreSync2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C86969C238B355F00CC3352 /* CalibreSync2Tests.swift */; };
+		8C8696A8238B355F00CC3352 /* CalibreSync2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8696A7238B355F00CC3352 /* CalibreSync2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C869699238B355F00CC3352 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C86967A238B355800CC3352 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C869681238B355800CC3352;
+			remoteInfo = CalibreSync2;
+		};
+		8C8696A4238B355F00CC3352 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C86967A238B355800CC3352 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C869681238B355800CC3352;
+			remoteInfo = CalibreSync2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C869682238B355800CC3352 /* CalibreSync2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalibreSync2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C869685238B355800CC3352 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C869687238B355800CC3352 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8C869689238B355800CC3352 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8C86968B238B355F00CC3352 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C86968E238B355F00CC3352 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8C869691238B355F00CC3352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C869693238B355F00CC3352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C869698238B355F00CC3352 /* CalibreSync2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalibreSync2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C86969C238B355F00CC3352 /* CalibreSync2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalibreSync2Tests.swift; sourceTree = "<group>"; };
+		8C86969E238B355F00CC3352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C8696A3238B355F00CC3352 /* CalibreSync2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalibreSync2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C8696A7238B355F00CC3352 /* CalibreSync2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalibreSync2UITests.swift; sourceTree = "<group>"; };
+		8C8696A9238B355F00CC3352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C86967F238B355800CC3352 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C869695238B355F00CC3352 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8696A0238B355F00CC3352 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C869679238B355800CC3352 = {
+			isa = PBXGroup;
+			children = (
+				8C869684238B355800CC3352 /* CalibreSync2 */,
+				8C86969B238B355F00CC3352 /* CalibreSync2Tests */,
+				8C8696A6238B355F00CC3352 /* CalibreSync2UITests */,
+				8C869683238B355800CC3352 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C869683238B355800CC3352 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C869682238B355800CC3352 /* CalibreSync2.app */,
+				8C869698238B355F00CC3352 /* CalibreSync2Tests.xctest */,
+				8C8696A3238B355F00CC3352 /* CalibreSync2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C869684238B355800CC3352 /* CalibreSync2 */ = {
+			isa = PBXGroup;
+			children = (
+				8C869685238B355800CC3352 /* AppDelegate.swift */,
+				8C869687238B355800CC3352 /* SceneDelegate.swift */,
+				8C869689238B355800CC3352 /* ContentView.swift */,
+				8C86968B238B355F00CC3352 /* Assets.xcassets */,
+				8C869690238B355F00CC3352 /* LaunchScreen.storyboard */,
+				8C869693238B355F00CC3352 /* Info.plist */,
+				8C86968D238B355F00CC3352 /* Preview Content */,
+			);
+			path = CalibreSync2;
+			sourceTree = "<group>";
+		};
+		8C86968D238B355F00CC3352 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8C86968E238B355F00CC3352 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8C86969B238B355F00CC3352 /* CalibreSync2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8C86969C238B355F00CC3352 /* CalibreSync2Tests.swift */,
+				8C86969E238B355F00CC3352 /* Info.plist */,
+			);
+			path = CalibreSync2Tests;
+			sourceTree = "<group>";
+		};
+		8C8696A6238B355F00CC3352 /* CalibreSync2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C8696A7238B355F00CC3352 /* CalibreSync2UITests.swift */,
+				8C8696A9238B355F00CC3352 /* Info.plist */,
+			);
+			path = CalibreSync2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C869681238B355800CC3352 /* CalibreSync2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C8696AC238B356000CC3352 /* Build configuration list for PBXNativeTarget "CalibreSync2" */;
+			buildPhases = (
+				8C86967E238B355800CC3352 /* Sources */,
+				8C86967F238B355800CC3352 /* Frameworks */,
+				8C869680238B355800CC3352 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalibreSync2;
+			productName = CalibreSync2;
+			productReference = 8C869682238B355800CC3352 /* CalibreSync2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C869697238B355F00CC3352 /* CalibreSync2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C8696AF238B356000CC3352 /* Build configuration list for PBXNativeTarget "CalibreSync2Tests" */;
+			buildPhases = (
+				8C869694238B355F00CC3352 /* Sources */,
+				8C869695238B355F00CC3352 /* Frameworks */,
+				8C869696238B355F00CC3352 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C86969A238B355F00CC3352 /* PBXTargetDependency */,
+			);
+			name = CalibreSync2Tests;
+			productName = CalibreSync2Tests;
+			productReference = 8C869698238B355F00CC3352 /* CalibreSync2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C8696A2238B355F00CC3352 /* CalibreSync2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C8696B2238B356000CC3352 /* Build configuration list for PBXNativeTarget "CalibreSync2UITests" */;
+			buildPhases = (
+				8C86969F238B355F00CC3352 /* Sources */,
+				8C8696A0238B355F00CC3352 /* Frameworks */,
+				8C8696A1238B355F00CC3352 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C8696A5238B355F00CC3352 /* PBXTargetDependency */,
+			);
+			name = CalibreSync2UITests;
+			productName = CalibreSync2UITests;
+			productReference = 8C8696A3238B355F00CC3352 /* CalibreSync2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C86967A238B355800CC3352 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Sumanth Peddamatham";
+				TargetAttributes = {
+					8C869681238B355800CC3352 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					8C869697238B355F00CC3352 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 8C869681238B355800CC3352;
+					};
+					8C8696A2238B355F00CC3352 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 8C869681238B355800CC3352;
+					};
+				};
+			};
+			buildConfigurationList = 8C86967D238B355800CC3352 /* Build configuration list for PBXProject "CalibreSync2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C869679238B355800CC3352;
+			productRefGroup = 8C869683238B355800CC3352 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C869681238B355800CC3352 /* CalibreSync2 */,
+				8C869697238B355F00CC3352 /* CalibreSync2Tests */,
+				8C8696A2238B355F00CC3352 /* CalibreSync2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C869680238B355800CC3352 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C869692238B355F00CC3352 /* LaunchScreen.storyboard in Resources */,
+				8C86968F238B355F00CC3352 /* Preview Assets.xcassets in Resources */,
+				8C86968C238B355F00CC3352 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C869696238B355F00CC3352 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8696A1238B355F00CC3352 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C86967E238B355800CC3352 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C869686238B355800CC3352 /* AppDelegate.swift in Sources */,
+				8C869688238B355800CC3352 /* SceneDelegate.swift in Sources */,
+				8C86968A238B355800CC3352 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C869694238B355F00CC3352 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C86969D238B355F00CC3352 /* CalibreSync2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C86969F238B355F00CC3352 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8696A8238B355F00CC3352 /* CalibreSync2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C86969A238B355F00CC3352 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C869681238B355800CC3352 /* CalibreSync2 */;
+			targetProxy = 8C869699238B355F00CC3352 /* PBXContainerItemProxy */;
+		};
+		8C8696A5238B355F00CC3352 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C869681238B355800CC3352 /* CalibreSync2 */;
+			targetProxy = 8C8696A4238B355F00CC3352 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C869690238B355F00CC3352 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C869691238B355F00CC3352 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C8696AA238B356000CC3352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C8696AB238B356000CC3352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C8696AD238B356000CC3352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CalibreSync2/Preview Content\"";
+				DEVELOPMENT_TEAM = 76PMGHFNNX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CalibreSync2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bafoontecha.CalibreSync2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C8696AE238B356000CC3352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CalibreSync2/Preview Content\"";
+				DEVELOPMENT_TEAM = 76PMGHFNNX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CalibreSync2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bafoontecha.CalibreSync2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C8696B0238B356000CC3352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76PMGHFNNX;
+				INFOPLIST_FILE = CalibreSync2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bafoontecha.CalibreSync2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalibreSync2.app/CalibreSync2";
+			};
+			name = Debug;
+		};
+		8C8696B1238B356000CC3352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76PMGHFNNX;
+				INFOPLIST_FILE = CalibreSync2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bafoontecha.CalibreSync2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalibreSync2.app/CalibreSync2";
+			};
+			name = Release;
+		};
+		8C8696B3238B356000CC3352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76PMGHFNNX;
+				INFOPLIST_FILE = CalibreSync2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bafoontecha.CalibreSync2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CalibreSync2;
+			};
+			name = Debug;
+		};
+		8C8696B4238B356000CC3352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76PMGHFNNX;
+				INFOPLIST_FILE = CalibreSync2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bafoontecha.CalibreSync2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CalibreSync2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C86967D238B355800CC3352 /* Build configuration list for PBXProject "CalibreSync2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C8696AA238B356000CC3352 /* Debug */,
+				8C8696AB238B356000CC3352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C8696AC238B356000CC3352 /* Build configuration list for PBXNativeTarget "CalibreSync2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C8696AD238B356000CC3352 /* Debug */,
+				8C8696AE238B356000CC3352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C8696AF238B356000CC3352 /* Build configuration list for PBXNativeTarget "CalibreSync2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C8696B0238B356000CC3352 /* Debug */,
+				8C8696B1238B356000CC3352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C8696B2238B356000CC3352 /* Build configuration list for PBXNativeTarget "CalibreSync2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C8696B3238B356000CC3352 /* Debug */,
+				8C8696B4238B356000CC3352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C86967A238B355800CC3352 /* Project object */;
+}
