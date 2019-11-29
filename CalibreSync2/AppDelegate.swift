@@ -7,14 +7,17 @@
 //
 
 import UIKit
+import GRDB
+
+// The shared database queue
+var dbQueue: DatabaseQueue!
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+//        try! setupDatabase(application)
         return true
     }
 
@@ -32,6 +35,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
 
-
+    private func setupDatabase(_ application: UIApplication) throws {
+        let databaseURL = try Bundle.main.resourceURL!.appendingPathComponent("Test Database").appendingPathComponent("metadata.db")
+        
+        dbQueue = try AppDatabase.openDatabase(atPath: databaseURL.path)
+        
+        print(databaseURL.path)
+        
+        // Be a nice iOS citizen, and don't consume too much memory
+        // See https://github.com/groue/GRDB.swift/blob/master/README.md#memory-management
+        dbQueue.setupMemoryManagement(in: application)
+    }
 }
 
